@@ -1,8 +1,3 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
-
 export const projectsData = [
     {
         id: 1,
@@ -12,7 +7,6 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: crefin,
     },
     {
         id: 2,
@@ -22,7 +16,6 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: travel,
     },
     {
         id: 3,
@@ -31,7 +24,6 @@ export const projectsData = [
         tools: ["OAuth", "SAML", "OIDC", "ASP .net", "Angular", "Keycloak", "Microsoft AD", "JWT"],
         code: '',
         demo: '',
-        image: ayla,
         role: 'Systems Engineer',
     },
     {
@@ -42,7 +34,6 @@ export const projectsData = [
         code: '',
         role: 'Backend Developer',
         demo: '',
-        image: realEstate,
     },
     
 ];
@@ -59,5 +50,4 @@ export const projectsData = [
 //     role: '',
 //     code: '',
 //     demo: '',
-//     image: crefin,
 // },
