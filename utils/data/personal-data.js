@@ -12,5 +12,5 @@ export const personalData = {
   twitter: 'https://twitter.com/said7388',
   stackOverflow: 'https://stackoverflow.com/users/7439436/stephen-van-sittert',
   devUsername: "stephen9572",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "https://rxresu.me/svs192016/sf-van-sittert"
 }
