@@ -73,6 +73,7 @@ export async function POST(request) {
     const { name, email, message: userMessage } = payload;
     const token = process.env.TELEGRAM_BOT_TOKEN;
     const chat_id = process.env.TELEGRAM_CHAT_ID;
+    const telskip = process.env.TELEGRAM_SKIP;
 
     // Validate environment variables
     if (!token || !chat_id) {
@@ -86,6 +87,9 @@ export async function POST(request) {
 
     // Send Telegram message
     const telegramSuccess = await sendTelegramMessage(token, chat_id, message);
+    if (telskip){
+      telegramSuccess = true;
+    }
 
     // Send email
     const emailSuccess = await sendEmail(payload, message);
