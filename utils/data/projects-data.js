@@ -1,6 +1,24 @@
 export const projectsData = [
     {
         id: 1,
+        name: 'Property Valuations',
+        description: "We build are building an application for a company to manage and perform Valuations on properties and assets and generate reports for them based on the data. We are leveraging AI to generate descriptions and using OAuth for authentication",
+        tools: ["AWS", 'C#', 'Tailwinds', 'Angular', "ASP .net", 'TypeScript', 'Mediator', "AWS Bedrock", "AWS S3", "API"],
+        role: 'Full Stack Developer',
+        code: '',
+        demo: '',
+    },
+    {
+        id: 2,
+        name: 'OAuth 2.0',
+        description: "Implemented a full Company wide OAuth 2.0 solution that can be used for any web application",
+        tools: ["Oauth 2.0"],
+        role: 'Implementer',
+        code: '',
+        demo: '',
+    },
+    {
+        id: 3,
         name: 'Municipality bill management',
         description: "Me and my team built an an application that assists a company manage there multipile muncipailty bills for over 500+ sites. We included data tracking over various months and integration with dispute login",
         tools: ["Azure Devops", 'C#', 'Tailwinds', 'Angular', "ASP .net", 'TypeScript', 'Mediator', "Azure eventbus", "Azure Keyvault", "API"],
@@ -9,7 +27,7 @@ export const projectsData = [
         demo: '',
     },
     {
-        id: 2,
+        id: 4,
         name: 'Tracking of payments on the SWIFT gateway',
         description: 'We integrated with the SWIFT network to track the movement of international payments accross countries and currencies to add value to customers to gett live updates on their payments. Along with this we were able to give historic data to customers that allowed to track fraudulent transactions or to view any past transaction',
         tools: ["Azure Devops",  "ASP .net", 'SWIFT', "Rest API", "Fintech"],
@@ -18,7 +36,7 @@ export const projectsData = [
         demo: '',
     },
     {
-        id: 3,
+        id: 5,
         name: 'Identity management for an enterprise',
         description: "My team and I implemetented a full identity provider for a large client with over 60 000 users. We integrated with Microsoft Active directory for user storage of employees and custom storage for clients as both used the same login provider. Along with providing the platform we also integrated with multipile apps to allow them to use this new service and to give single sign on to clients and thus deliver a better user experience",
         tools: ["OAuth", "SAML", "OIDC", "ASP .net", "Angular", "Keycloak", "Microsoft AD", "JWT"],
@@ -27,7 +45,7 @@ export const projectsData = [
         role: 'Systems Engineer',
     },
     {
-        id: 4,
+        id: 6,
         name: 'Python automation scripts',
         description: 'I created varios automated python scrits to replace manual and repetive process that clients had to complete. We further extend this to facilate payments between companies and reporting that back to the finance department',
         tools: ["Python", "Excel"],
